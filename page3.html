@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+<style>
+.nav
+{
+{
+margin:0;
+padding:0;
+}
+h2,p{
+margin:10px;
+}
+ul{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:#333333;
+}
+ul li{
+float:left;
+}
+ul li a{
+display:block;
+color:white;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+}
+ul li a:hover {
+background - color:#111111;
+}
+}
+</style>
+</head>
+<body background="file.jpg">
+<div class="nav">
+<ul>
+<li><a href="index.html">Main Page</a><br></li>
+</ul>
+</div>
+<h2 align="center"><ul>Registration Form </ul></h2>
+<form>
+<table border height="500px"width="600px" bgcolor="black" align="center">
+<tr   bgcolor="White" >
+<td><label for="name">Enter your name:</label></td>
+<td><input type="text" id="name" name="name"placeholder="Enter Your Name" required></td>
+</tr>
+<tr  bgcolor="White">
+<td><label for="dob">Date of Birth:</label></td>
+<td><input type="date" id="dob" name="dob"></td>
+ </tr>
+<tr  bgcolor="White">
+<td><label for="email">Email:</label></td> 
+<td><input type="email" id="email" name="email"placeholder="email" required></td>
+ </tr>
+<tr  bgcolor="White">
+<td><label for="Contact Number">Contact Number:</label></td> 
+<td><input type="text" id="Contact Number" name="Number"placeholder="Number" required></td>
+ </tr>
+</td>
+</tr>
+<tr bgcolor="White">
+<td>Choose your gender:</td>
+<td>
+<input type="radio"  name="gender">Male
+<input type="radio" name="gender">Female
+<input type="radio" name="gender">Other                 
+</td>
+</tr>
+<tr  bgcolor="White">
+<td colspan="2" style="text-align:center;">
+<input type="Submit" value="Submit">
+<input type="Reset" value="Reset">
+</td>
+ </tr>
+</table>
+</form>
+</body>
+</html>
